@@ -228,7 +228,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ :GREENMOVIES_{file_name} @armoviechat @greenmoviebot
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ :GREENMOVIES{file_name}@armoviechat@greenmoviebot
 
 <b> Size ⚙️: {file_size}</b>""" 
 
