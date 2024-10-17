@@ -337,10 +337,10 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
     btn = [
         [
             InlineKeyboardButton(
-                text=f"[{get_size(filevj.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), filevj.file_name.split()))}", callback_data=f'file#{filevj.file_id}'
+                text=f"[{get_size(fileAR.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), fileAR.file_name.split()))}", callback_data=f'file#{fileAR.file_id}'
             ),
         ]
-        for filevj in files
+        for fileAR in files
     ]
     btn.insert(0, 
         [
