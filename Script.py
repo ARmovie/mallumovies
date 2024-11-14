@@ -167,7 +167,7 @@ FILES DB :-
 OTHER DB :-
 ★ Used Storage: <code>{}</code></b>"""    
 
-LOG_TEXT_G = """#NewGroup
+LOG_TEXT_G = """NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
