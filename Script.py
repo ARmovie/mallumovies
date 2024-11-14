@@ -158,14 +158,16 @@ STATUS_TXT = """<b>USERS DB :-
 ★ Total Users: 24570
 ★ Total Chats: 1988
 ★ Used Storage: <code>{}</code>
+
 FILES DB :-
 ★ Total Files: <code>{}</code>
 ★ First Db Used Storage: <code>{}</code>
 ★ Second Db Used Storage: <code>{}</code>
+
 OTHER DB :-
 ★ Used Storage: <code>{}</code></b>"""    
 
-    LOG_TEXT_G = """#NewGroup
+LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
